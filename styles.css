@@ -1,0 +1,73 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f0f6fa; /* Light blue background */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff; /* White container background */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: calc(100% - 20px);
+    border: 2px solid #b2d4e5; /* Light blue border */
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4cafce; /* Light blue button */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a6c9; /* Slightly darker blue on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    padding: 12px;
+    margin-bottom: 8px;
+    background-color: #f0f6fa; /* Light blue background for list items */
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+li:hover {
+    background-color: #d4eaf3; /* Lighter blue on hover */
+}
+
+.crossed-out {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
